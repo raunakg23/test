@@ -24,3 +24,24 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Add this to your global CSS */
+.course-item {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.course-item h2, .course-item h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.course-item ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+.course-item strong {
+  font-weight: bold;
+}
